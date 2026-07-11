@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Юридическая компания «Правовед» — профессиональная юридическая помощь</title>
+  <meta name="description" content="Юридическая компания «Правовед» оказывает профессиональные юридические услуги: семейное, трудовое, гражданское и налоговое право. Запишитесь на бесплатную консультацию.">
+  <meta name="keywords" content="юридическая компания, юридические услуги, адвокат, семейное право, трудовое право, гражданское право, налоговое право, консультация юриста">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Юридическая компания «Правовед»">
+  <meta property="og:description" content="Профессиональная юридическая помощь по всем направлениям права. Бесплатная консультация.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pravoved-legal.ru">
+  <meta property="og:locale" content="ru_RU">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Юридическая компания «Правовед»",
+    "description": "Профессиональные юридические услуги по семейному, трудовому, гражданскому и налоговому праву.",
+    "url": "https://pravoved-legal.ru",
+    "telephone": "+7 (495) 123-45-67",
+    "email": "info@pravoved-legal.ru",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Тверская, д. 15, офис 301",
+      "addressLocality": "Москва",
+      "postalCode": "125009",
+      "addressCountry": "RU"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="header__logo">
+          <svg class="header__logo-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+          </svg>
+          <span>Правовед</span>
+        </a>
+        <nav class="header__nav" id="nav">
+          <ul class="header__nav-list">
+            <li><a href="#services" class="header__nav-link">Услуги</a></li>
+            <li><a href="#advantages" class="header__nav-link">Преимущества</a></li>
+            <li><a href="#reviews" class="header__nav-link">Отзывы</a></li>
+            <li><a href="#contacts" class="header__nav-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <a href="#form" class="btn btn--primary header__cta">Записаться</a>
+        <button class="header__burger" id="burger" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__art"></div>
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__badge">С 2010 года защищаем ваши интересы</div>
+        <h1 class="hero__title">Ваша защита —<br>наша работа</h1>
+        <p class="hero__subtitle">Профессиональная юридическая помощь по семейным, трудовым, гражданским и налоговым делам.</p>
+        <div class="hero__actions">
+          <a href="#form" class="btn btn--accent hero__btn">Бесплатная консультация</a>
+          <a href="#services" class="btn hero__btn-outline">Наши услуги</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-num">15+</span>
+            <span class="hero__stat-label">лет опыта</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">95%</span>
+            <span class="hero__stat-label">дел выиграно</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">500+</span>
+            <span class="hero__stat-label">клиентов</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services section" id="services">
+    <div class="container">
+      <h2 class="section__title">Наши услуги</h2>
+      <p class="section__subtitle">Полный спектр юридических услуг для физических и юридических лиц</p>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Семейное право</h3>
+          <p class="service-card__desc">Развод, раздел имущества, алименты, установление отцовства, споры о детях, брачный договор.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Трудовое право</h3>
+          <p class="service-card__desc">Увольнение, восстановление на работе, взыскание зарплаты, трудовые споры, коллективные договоры.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Гражданское право</h3>
+          <p class="service-card__desc">Договоры, наследование, защита прав потребителей, недвижимость, возмещение ущерба, земельные споры.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Налоговое право</h3>
+          <p class="service-card__desc">Налоговые споры, оптимизация налогообложения, декларации, оспаривание штрафов, сопровождение проверок.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Advantages -->
+  <section class="advantages section" id="advantages">
+    <div class="container">
+      <h2 class="section__title">Почему выбирают нас</h2>
+      <p class="section__subtitle">Более 13 лет безупречной репутации и тысячи выигранных дел</p>
+      <div class="advantages__grid">
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1a237e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 class="advantage-card__title">15+ лет опыта</h3>
+          <p class="advantage-card__desc">Наши юристы практикуют с 2010 года и имеют высочайшую квалификацию в своих областях.</p>
+        </div>
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1a237e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <h3 class="advantage-card__title">Гарантия результата</h3>
+          <p class="advantage-card__desc">Работаем на результат. 95% дел завершаются в пользу клиента благодаря тщательной подготовке.</p>
+        </div>
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1a237e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h3 class="advantage-card__title">Конфиденциальность</h3>
+          <p class="advantage-card__desc">Строгое соблюдение адвокатской тайны. Ваша информация защищена законом и нашими стандартами.</p>
+        </div>
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1a237e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <h3 class="advantage-card__title">Оперативность</h3>
+          <p class="advantage-card__desc">Реагируем в течение 2 часов. Срочные дела рассматриваем в день обращения.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews section" id="reviews">
+    <div class="container">
+      <h2 class="section__title">Отзывы клиентов</h2>
+      <p class="section__subtitle">Благодарность наших клиентов — лучшая награда</p>
+      <div class="reviews__slider" id="reviewsSlider">
+        <div class="slider__track" id="sliderTrack">
+          <div class="slider__slide">
+            <div class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <p class="review-card__text">Обратился за помощью в бракоразводном процессе. Очень признателен за профессионализм и чуткое отношение. Вопрос решили быстро и в мою пользу.</p>
+              <div class="review-card__author">
+                <div class="review-card__avatar">АН</div>
+                <div>
+                  <div class="review-card__name">Алексей Н.</div>
+                  <div class="review-card__case">Семейное право</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <div class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <p class="review-card__text">Помогли восстановиться на работе после незаконного увольнения. Собрали все документы, представляли интересы в суде. Огромное спасибо команде!</p>
+              <div class="review-card__author">
+                <div class="review-card__avatar">ЕК</div>
+                <div>
+                  <div class="review-card__name">Елена К.</div>
+                  <div class="review-card__case">Трудовое право</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <div class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <p class="review-card__text">Консультировались по вопросу наследования. Очень грамотный подход, всё объяснили доступным языком. Сопроводили сделку от начала до конца.</p>
+              <div class="review-card__author">
+                <div class="review-card__avatar">МВ</div>
+                <div>
+                  <div class="review-card__name">Марина В.</div>
+                  <div class="review-card__case">Гражданское право</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <div class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <p class="review-card__text">Помогли оспорить штрафы налоговой. Сэкономили компании более 2 миллионов рублей. Рекомендую как надёжного партнёра для бизнеса.</p>
+              <div class="review-card__author">
+                <div class="review-card__avatar">СМ</div>
+                <div>
+                  <div class="review-card__name">Сергей М.</div>
+                  <div class="review-card__case">Налоговое право</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__controls">
+          <button class="slider__btn slider__btn--prev" id="sliderPrev" aria-label="Предыдущий отзыв">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <div class="slider__dots" id="sliderDots"></div>
+          <button class="slider__btn slider__btn--next" id="sliderNext" aria-label="Следующий отзыв">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section class="form-section section" id="form">
+    <div class="container">
+      <div class="form-section__inner">
+        <div class="form-section__info">
+          <h2 class="section__title section__title--left">Запишитесь на консультацию</h2>
+          <p class="form-section__text">Оставьте заявку — мы свяжемся с вами в течение 2 часов и подберём удобное время для встречи. Первая консультация — бесплатно.</p>
+          <ul class="form-section__benefits">
+            <li>Бесплатная первичная консультация</li>
+            <li>Анализ вашей ситуации</li>
+            <li>Прозрачный расчёт стоимости</li>
+            <li>Полное юридическое сопровождение</li>
+          </ul>
+        </div>
+        <form class="form" id="consultForm" novalidate>
+          <div class="form__group">
+            <label for="formName" class="form__label">Ваше имя</label>
+            <input type="text" class="form__input" id="formName" name="name" placeholder="Иван Петров" required minlength="2">
+            <span class="form__error" id="nameError"></span>
+          </div>
+          <div class="form__group">
+            <label for="formPhone" class="form__label">Номер телефона</label>
+            <input type="tel" class="form__input" id="formPhone" name="phone" placeholder="+7 (999) 123-45-67" required>
+            <span class="form__error" id="phoneError"></span>
+          </div>
+          <div class="form__group">
+            <label for="formService" class="form__label">Интересующая услуга</label>
+            <select class="form__input form__select" id="formService" name="service" required>
+              <option value="" disabled selected>Выберите услугу</option>
+              <option value="family">Семейное право</option>
+              <option value="labor">Трудовое право</option>
+              <option value="civil">Гражданское право</option>
+              <option value="tax">Налоговое право</option>
+              <option value="other">Другое</option>
+            </select>
+            <span class="form__error" id="serviceError"></span>
+          </div>
+          <div class="form__group">
+            <label for="formComment" class="form__label">Комментарий</label>
+            <textarea class="form__input form__textarea" id="formComment" name="comment" placeholder="Кратко опишите вашу ситуацию..." rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn--accent form__submit">Отправить заявку</button>
+          <p class="form__policy">Нажимая кнопку, вы соглашаетесь с <a href="#" target="_blank">политикой конфиденциальности</a></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section class="contacts section" id="contacts">
+    <div class="container">
+      <h2 class="section__title">Контакты</h2>
+      <p class="section__subtitle">Приходите — мы находимся в центре Москвы</p>
+      <div class="contacts__grid">
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <h3 class="contact-card__title">Адрес</h3>
+          <p class="contact-card__text">г. Москва, ул. Тверская, д. 15, офис 301</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <h3 class="contact-card__title">Телефон</h3>
+          <a href="tel:+74951234567" class="contact-card__link">+7 (495) 123-45-67</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <h3 class="contact-card__title">Email</h3>
+          <a href="mailto:info@pravoved-legal.ru" class="contact-card__link">info@pravoved-legal.ru</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </div>
+          <h3 class="contact-card__title">Социальные сети</h3>
+          <div class="contact-card__socials">
+            <a href="#" aria-label="VK">VK</a>
+            <a href="#" aria-label="Telegram">TG</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__info">
+          <a href="#" class="footer__logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+            </svg>
+            Правовед
+          </a>
+          <p class="footer__copy">&copy; 2026 Юридическая компания «Правовед». Все права защищены.</p>
+        </div>
+        <a href="#" class="footer__policy">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Success modal -->
+  <div class="modal" id="successModal">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+      <div class="modal__icon">
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#4caf50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+        </svg>
+      </div>
+      <h3 class="modal__title">Спасибо за заявку!</h3>
+      <p class="modal__text">Мы свяжемся с вами в ближайшее время.</p>
+      <button class="btn btn--primary" id="modalClose">Закрыть</button>
+    </div>
+  </div>
+
+  <script src="js/slider.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
